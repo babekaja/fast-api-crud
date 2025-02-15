@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 Assure-toi que MySQL est en cours d'exécution et crée une base de données :
 ```sql
-CREATE DATABASE fastapi_users;
+CREATE DATABASE users;
 ```
 
 ### 4. Lancer le serveur
@@ -58,9 +58,7 @@ nom-du-repo/
 │   ├── main.py          # Point d'entrée FastAPI
 │   ├── models.py        # Modèles SQLAlchemy
 │   ├── database.py      # Connexion à MySQL
-│   ├── schemas.py       # Schémas Pydantic
 │   ├── crud.py          # Fonctions CRUD
-│   ├── routes.py        # Routes API
 │   ├── templates/       # Fichiers HTML
 │   ├── static/          # Fichiers CSS/JS
 │── README.md            # Documentation
