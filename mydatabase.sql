@@ -1,0 +1,8 @@
+CREATE DATABASE mydatabase;
+USE mydatabase;
+CREATE TABLE users
+(
+    id INT AUTO_INCREMENT PRIMARY KEY ,
+    nom VARCHAR(100) NOT NULL ,
+    email VARCHAR(100) UNIQUE NOT NULL
+)
